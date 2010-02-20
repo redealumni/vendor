@@ -1,8 +1,2 @@
---- 
-vendor/plugins/factory_girl: 
-  squashed: true
-  url: git://github.com/thoughtbot/factory_girl.git
-  branch: master
-  type: git
-  revision: 3287ed8dee95a0540db409eea8cac3531a04f3cd
-  remote: braid/vendor/plugins/factory-girl
+--- {}
+
