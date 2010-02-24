@@ -1,4 +1,11 @@
 --- 
+plugins/rspec-rails: 
+  squashed: true
+  url: git://github.com/dchelimsky/rspec-rails.git
+  branch: master
+  type: git
+  revision: 2a51fba09356fe4a234ea43f4e7910e0c83e8d7f
+  remote: braid/plugins/rspec-rails
 plugins/rspec: 
   squashed: true
   url: git://github.com/dchelimsky/rspec.git
