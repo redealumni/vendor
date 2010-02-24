@@ -1,2 +1,8 @@
---- {}
-
+--- 
+plugins/rspec: 
+  squashed: true
+  url: git://github.com/dchelimsky/rspec.git
+  branch: master
+  type: git
+  revision: bcc4765c59cab92d97fe3c21dbce6d6c844a67be
+  remote: braid/plugins/rspec
