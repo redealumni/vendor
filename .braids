@@ -6,6 +6,13 @@ plugins/mocha:
   type: git
   revision: 55f431a7dc0797b54ee5dbd3256ee59cbb175499
   remote: braid/plugins/mocha
+plugins/mimetype-fu: 
+  squashed: true
+  url: git://github.com/mattetti/mimetype-fu.git
+  branch: master
+  type: git
+  revision: 6cbcadd3c3b6d7a3b239f3eee9db3bd0a76ea3b6
+  remote: braid/plugins/mimetype-fu
 plugins/action_mailer_optional_tls: 
   squashed: true
   url: git://github.com/collectiveidea/action_mailer_optional_tls.git
