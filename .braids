@@ -27,6 +27,13 @@ plugins/rspec-rails:
   type: git
   revision: 2a51fba09356fe4a234ea43f4e7910e0c83e8d7f
   remote: braid/plugins/rspec-rails
+plugins/attachment_fu: 
+  squashed: true
+  url: git://github.com/technoweenie/attachment_fu.git
+  branch: master
+  type: git
+  revision: fa08cb03914b02b66853b4615cd3eca768291ca7
+  remote: braid/plugins/attachment-fu
 plugins/acts_as_audited: 
   squashed: true
   url: git://github.com/collectiveidea/acts_as_audited.git
