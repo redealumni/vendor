@@ -20,6 +20,13 @@ plugins/rspec-rails:
   type: git
   revision: 2a51fba09356fe4a234ea43f4e7910e0c83e8d7f
   remote: braid/plugins/rspec-rails
+plugins/acts_as_audited: 
+  squashed: true
+  url: git://github.com/collectiveidea/acts_as_audited.git
+  branch: master
+  type: git
+  revision: b3272a8d62cb628fdb6d59c59822fb5170222b0c
+  remote: braid/plugins/acts-as-audited
 plugins/rspec: 
   squashed: true
   url: git://github.com/dchelimsky/rspec.git
