@@ -13,6 +13,13 @@ plugins/mimetype-fu:
   type: git
   revision: 6cbcadd3c3b6d7a3b239f3eee9db3bd0a76ea3b6
   remote: braid/plugins/mimetype-fu
+plugins/awesome_nested_set: 
+  squashed: true
+  url: git://github.com/collectiveidea/awesome_nested_set.git
+  branch: master
+  type: git
+  revision: b9aba888f5f28e7ce47af4a36c2ae1df17640b38
+  remote: braid/plugins/awesome-nested-set
 plugins/action_mailer_optional_tls: 
   squashed: true
   url: git://github.com/collectiveidea/action_mailer_optional_tls.git
