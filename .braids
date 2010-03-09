@@ -41,6 +41,13 @@ plugins/attachment_fu:
   type: git
   revision: fa08cb03914b02b66853b4615cd3eca768291ca7
   remote: braid/plugins/attachment-fu
+plugins/geokit-rails: 
+  squashed: true
+  url: git://github.com/andre/geokit-rails.git
+  branch: master
+  type: git
+  revision: 324231088b02d7c6d590333d2bb1645efad0274f
+  remote: braid/plugins/geokit-rails
 plugins/acts_as_audited: 
   squashed: true
   url: git://github.com/collectiveidea/acts_as_audited.git
