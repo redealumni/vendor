@@ -1,8 +1,0 @@
---- 
-format: 1
-handler: 
-  piston:remote-revision: 
-  piston:uuid: 
-lock: false
-repository_class: Piston::Svn::Repository
-repository_url: 
