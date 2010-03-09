@@ -6,6 +6,13 @@ plugins/mocha:
   type: git
   revision: 55f431a7dc0797b54ee5dbd3256ee59cbb175499
   remote: braid/plugins/mocha
+plugins/action_mailer_optional_tls: 
+  squashed: true
+  url: git://github.com/collectiveidea/action_mailer_optional_tls.git
+  branch: master
+  type: git
+  revision: c05ff0125c459328d7507b3b568f8d4ae66584e1
+  remote: braid/plugins/action-mailer-optional-tls
 plugins/rspec-rails: 
   squashed: true
   url: git://github.com/dchelimsky/rspec-rails.git
