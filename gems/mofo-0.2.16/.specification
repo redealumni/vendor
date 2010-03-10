@@ -1,0 +1,151 @@
+--- !ruby/object:Gem::Specification 
+name: mofo
+version: !ruby/object:Gem::Version 
+  version: 0.2.16
+platform: ruby
+authors: 
+- Chris Wanstrath
+autorequire: 
+bindir: bin
+cert_chain: 
+date: 2008-02-10 00:00:00 -02:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: hpricot
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: 0.4.59
+    version: 
+description: mofo is a ruby microformat parser
+email: chris@ozmm.org
+executables: []
+
+extensions: []
+
+extra_rdoc_files: []
+
+files: 
+- ./CHANGELOG
+- ./init.rb
+- ./lib/microformat/array.rb
+- ./lib/microformat/object.rb
+- ./lib/microformat/simple.rb
+- ./lib/microformat/string.rb
+- ./lib/microformat/time.rb
+- ./lib/microformat.rb
+- ./lib/mofo/adr.rb
+- ./lib/mofo/geo.rb
+- ./lib/mofo/hcalendar.rb
+- ./lib/mofo/hcard.rb
+- ./lib/mofo/hentry.rb
+- ./lib/mofo/hfeed.rb
+- ./lib/mofo/hresume.rb
+- ./lib/mofo/hreview.rb
+- ./lib/mofo/rel_bookmark.rb
+- ./lib/mofo/rel_tag.rb
+- ./lib/mofo/xfn.rb
+- ./lib/mofo/xoxo.rb
+- ./lib/mofo.rb
+- ./LICENSE
+- ./Manifest.txt
+- ./Rakefile
+- ./README
+- ./site/favicon.ico
+- ./site/index.html
+- ./site/mofo-logo.png
+- ./site/mootools.v1.00.js
+- ./site/p.js
+- ./site/spinner.gif
+- ./site/style.css
+- ./site/try/index.html
+- ./site/try/p.js
+- ./site/try/spinner.gif
+- ./site/try/template.html
+- ./site/try/trymofo.rb
+- ./site/try.html
+- ./test/base_url_test.rb
+- ./test/ext_test.rb
+- ./test/fixtures/bob.html
+- ./test/fixtures/chowhound.html
+- ./test/fixtures/corkd.html
+- ./test/fixtures/event_addr.html
+- ./test/fixtures/events.html
+- ./test/fixtures/fake.html
+- ./test/fixtures/fauxtank.html
+- ./test/fixtures/hatom.html
+- ./test/fixtures/hresume.html
+- ./test/fixtures/include_pattern_single_attribute.html
+- ./test/fixtures/simple.html
+- ./test/fixtures/stoneship.html
+- ./test/fixtures/upcoming.html
+- ./test/fixtures/upcoming_single.html
+- ./test/fixtures/xfn.html
+- ./test/hatom_test.rb
+- ./test/hcalendar_test.rb
+- ./test/hcard_test.rb
+- ./test/hresume_test.rb
+- ./test/hreview_test.rb
+- ./test/include_pattern_test.rb
+- ./test/reltag_test.rb
+- ./test/subclass_test.rb
+- ./test/test_helper.rb
+- ./test/xfn_test.rb
+- ./test/xoxo_test.rb
+- test/base_url_test.rb
+- test/ext_test.rb
+- test/hatom_test.rb
+- test/hcalendar_test.rb
+- test/hcard_test.rb
+- test/hresume_test.rb
+- test/hreview_test.rb
+- test/include_pattern_test.rb
+- test/reltag_test.rb
+- test/subclass_test.rb
+- test/xfn_test.rb
+- test/xoxo_test.rb
+has_rdoc: true
+homepage: http://mofo.rubyforge.org/
+licenses: []
+
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">"
+    - !ruby/object:Gem::Version 
+      version: 0.0.0
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: mofo
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 1
+summary: mofo is a ruby microformat parser
+test_files: 
+- test/base_url_test.rb
+- test/ext_test.rb
+- test/hatom_test.rb
+- test/hcalendar_test.rb
+- test/hcard_test.rb
+- test/hresume_test.rb
+- test/hreview_test.rb
+- test/include_pattern_test.rb
+- test/reltag_test.rb
+- test/subclass_test.rb
+- test/xfn_test.rb
+- test/xoxo_test.rb

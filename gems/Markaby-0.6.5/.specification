@@ -1,0 +1,130 @@
+--- !ruby/object:Gem::Specification 
+name: Markaby
+version: !ruby/object:Gem::Version 
+  version: 0.6.5
+platform: ruby
+authors: 
+- _why
+- Tim Fletcher
+- John Barton
+- spox
+- smtlaissezfaire
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-10-12 00:00:00 -03:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: builder
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: 2.0.0
+    version: 
+description: Tim Fletcher and _why's ruby driven HTML templating system
+email: jrbarton@gmail.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README.rdoc
+files: 
+- .gitignore
+- CHANGELOG.rdoc
+- Markaby.gemspec
+- README.rdoc
+- Rakefile
+- VERSION
+- garlic.rb
+- init.rb
+- lib/markaby.rb
+- lib/markaby/builder.rb
+- lib/markaby/builder_tags.rb
+- lib/markaby/cssproxy.rb
+- lib/markaby/kernel_method.rb
+- lib/markaby/rails.rb
+- lib/markaby/rails/current.rb
+- lib/markaby/rails/deprecated.rb
+- lib/markaby/rails/rails_builder.rb
+- lib/markaby/tags.rb
+- lib/markaby/tilt.rb
+- spec/markaby/builder_spec.rb
+- spec/markaby/css_proxy_spec.rb
+- spec/markaby/fragment_spec.rb
+- spec/markaby/markaby_other_static.mab
+- spec/markaby/markaby_spec.rb
+- spec/markaby/rails/spec_helper.rb
+- spec/markaby/rails/views/markaby/_a_partial.mab
+- spec/markaby/rails/views/markaby/_partial_child_with_locals.mab
+- spec/markaby/rails/views/markaby/access_to_helpers.mab
+- spec/markaby/rails/views/markaby/broken.mab
+- spec/markaby/rails/views/markaby/correct_template_values.mab
+- spec/markaby/rails/views/markaby/form_for.mab
+- spec/markaby/rails/views/markaby/form_for_with_fields.mab
+- spec/markaby/rails/views/markaby/form_for_with_multiple_fields.mab
+- spec/markaby/rails/views/markaby/no_values_passed.mab
+- spec/markaby/rails/views/markaby/partial_parent.mab
+- spec/markaby/rails/views/markaby/partial_parent_with_locals.mab
+- spec/markaby/rails/views/markaby/render_erb_without_explicit_render_call.erb
+- spec/markaby/rails/views/markaby/render_explicit_but_empty_markaby_layout.mab
+- spec/markaby/rails/views/markaby/render_mab_without_explicit_render_call.mab
+- spec/markaby/rails/views/markaby/render_with_ivar.mab
+- spec/markaby/rails/views/markaby/renders_erb.rhtml
+- spec/markaby/rails_spec.rb
+- spec/markaby/rails_version_spec.rb
+- spec/markaby/tilt/erb.erb
+- spec/markaby/tilt/locals.mab
+- spec/markaby/tilt/markaby.mab
+- spec/markaby/tilt/markaby_other_static.mab
+- spec/markaby/tilt/render_twice.mab
+- spec/markaby/tilt/scope.mab
+- spec/markaby/tilt/yielding.mab
+- spec/markaby/tilt_spec.rb
+- spec/markaby/xml_markup_spec.rb
+- spec/spec.opts
+- spec/spec_helper.rb
+has_rdoc: true
+homepage: http://joho.github.com/markaby/
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --charset=UTF-8
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: Markup as Ruby, write HTML in your native Ruby tongue
+test_files: 
+- spec/markaby/builder_spec.rb
+- spec/markaby/css_proxy_spec.rb
+- spec/markaby/fragment_spec.rb
+- spec/markaby/markaby_spec.rb
+- spec/markaby/rails/spec_helper.rb
+- spec/markaby/rails_spec.rb
+- spec/markaby/rails_version_spec.rb
+- spec/markaby/tilt_spec.rb
+- spec/markaby/xml_markup_spec.rb
+- spec/spec_helper.rb
