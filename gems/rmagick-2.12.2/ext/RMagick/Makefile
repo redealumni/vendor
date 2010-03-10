@@ -4,23 +4,23 @@ SHELL = /bin/sh
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0
+topdir = /Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0
 hdrdir = $(topdir)
 VPATH = $(srcdir):$(topdir):$(hdrdir)
 exec_prefix = $(prefix)
-prefix = $(DESTDIR)/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr
+prefix = $(DESTDIR)/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249
 sharedstatedir = $(prefix)/com
-mandir = $(DESTDIR)/usr/share/man
+mandir = $(datarootdir)/man
 psdir = $(docdir)
 oldincludedir = $(DESTDIR)/usr/include
 localedir = $(datarootdir)/locale
 bindir = $(exec_prefix)/bin
 libexecdir = $(exec_prefix)/libexec
-sitedir = $(DESTDIR)/Library/Ruby/Site
+sitedir = $(libdir)/ruby/site_ruby
 htmldir = $(docdir)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 includedir = $(prefix)/include
-infodir = $(DESTDIR)/usr/share/info
+infodir = $(datarootdir)/info
 vendorlibdir = $(vendordir)/$(ruby_version)
 sysconfdir = $(prefix)/etc
 libdir = $(exec_prefix)/lib
@@ -38,14 +38,14 @@ localstatedir = $(prefix)/var
 sitelibdir = $(sitedir)/$(ruby_version)
 
 CC = gcc
-LIBRUBY = $(LIBRUBY_SO)
+LIBRUBY = $(LIBRUBY_A)
 LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a
-LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)
-LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)
+LIBRUBYARG_SHARED = 
+LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static
 
 RUBY_EXTCONF_H = extconf.h
 CFLAGS   =  -fno-common  -I/opt/local/include/ImageMagick -fopenmp 
-INCFLAGS = -I. -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.
+INCFLAGS = -I. -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.
 DEFS     = 
 CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\"  -I/opt/local/include/ImageMagick
 CXXFLAGS = $(CFLAGS) 
@@ -53,16 +53,16 @@ ldflags  =  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib
 dldflags = 
 archflag = 
 DLDFLAGS = $(ldflags) $(dldflags) $(archflag)
-LDSHARED = cc -arch i386 -arch x86_64 -pipe -bundle -undefined dynamic_lookup
+LDSHARED = cc -dynamic -bundle -undefined suppress -flat_namespace
 AR = ar
 EXEEXT = 
 
 RUBY_INSTALL_NAME = ruby
 RUBY_SO_NAME = ruby
-arch = universal-darwin10.0
-sitearch = universal-darwin10.0
+arch = i686-darwin10.2.0
+sitearch = i686-darwin10.2.0
 ruby_version = 1.8
-ruby = /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
+ruby = /Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/bin/ruby
 RUBY = $(ruby)
 RM = rm -f
 MAKEDIRS = mkdir -p
@@ -86,7 +86,7 @@ extout =
 extout_prefix = 
 target_prefix = 
 LOCAL_LIBS =  -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread 
-LIBS = $(LIBRUBYARG_SHARED) -lMagickCore  -lpthread -ldl  
+LIBS =  -lMagickCore  -ldl -lobjc  
 SRCS = rmagick.c rmdraw.c rmenum.c rmfill.c rmilist.c rmimage.c rminfo.c rmmain.c rmmontage.c rmpixel.c rmstruct.c rmutil.c
 OBJS = rmagick.o rmdraw.o rmenum.o rmfill.o rmilist.o rmimage.o rminfo.o rmmain.o rmmontage.o rmpixel.o rmstruct.o rmutil.o
 TARGET = RMagick2
@@ -148,7 +148,7 @@ site-install-rb: install-rb
 .c.o:
 	$(CC) $(INCFLAGS) $(CPPFLAGS) $(CFLAGS) -c $<
 
-$(DLLIB): $(OBJS)
+$(DLLIB): $(OBJS) Makefile
 	@-$(RM) $@
 	$(LDSHARED) -o $@ $(OBJS) $(LIBPATH) $(DLDFLAGS) $(LOCAL_LIBS) $(LIBS)
 

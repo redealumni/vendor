@@ -20,7 +20,7 @@ checking for HDRI disabled version of ImageMagick... -------------------- yes
 
 have_header: checking for stdint.h... -------------------- yes
 
-"gcc -E -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+"gcc -E -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include <stdint.h>
@@ -30,7 +30,7 @@ checked program was:
 
 have_header: checking for sys/types.h... -------------------- yes
 
-"gcc -E -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+"gcc -E -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include <sys/types.h>
@@ -40,7 +40,7 @@ checked program was:
 
 have_header: checking for wand/MagickWand.h... -------------------- yes
 
-"gcc -E -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+"gcc -E -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include <wand/MagickWand.h>
@@ -50,7 +50,7 @@ checked program was:
 
 have_library: checking for InitializeMagick() in -lMagickCore... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread   -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread   -lruby-static -lMagickCore  -ldl -lobjc  "
 conftest.c: In function ‘t’:
 conftest.c:13: warning: ‘InitializeMagick’ is deprecated (declared at /opt/local/include/ImageMagick/magick/deprecate.h:314)
 checked program was:
@@ -74,7 +74,7 @@ checked program was:
 
 have_func: checking for snprintf() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -96,7 +96,7 @@ checked program was:
 
 have_func: checking for AcquireImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -118,7 +118,7 @@ checked program was:
 
 have_func: checking for AffinityImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 conftest.c: In function ‘t’:
 conftest.c:13: warning: ‘AffinityImage’ is deprecated (declared at /opt/local/include/ImageMagick/magick/deprecate.h:164)
 checked program was:
@@ -142,7 +142,7 @@ checked program was:
 
 have_func: checking for AffinityImages() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 conftest.c: In function ‘t’:
 conftest.c:13: warning: ‘AffinityImages’ is deprecated (declared at /opt/local/include/ImageMagick/magick/deprecate.h:166)
 checked program was:
@@ -166,7 +166,7 @@ checked program was:
 
 have_func: checking for AutoGammaImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -188,7 +188,7 @@ checked program was:
 
 have_func: checking for AutoLevelImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -210,7 +210,7 @@ checked program was:
 
 have_func: checking for BlueShiftImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -232,7 +232,7 @@ checked program was:
 
 have_func: checking for DeskewImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -254,7 +254,7 @@ checked program was:
 
 have_func: checking for EncipherImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -276,7 +276,7 @@ checked program was:
 
 have_func: checking for EqualizeImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -298,7 +298,7 @@ checked program was:
 
 have_func: checking for FloodfillPaintImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -320,7 +320,7 @@ checked program was:
 
 have_func: checking for FunctionImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -342,7 +342,7 @@ checked program was:
 
 have_func: checking for GetAuthenticIndexQueue() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -364,7 +364,7 @@ checked program was:
 
 have_func: checking for GetAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -386,7 +386,7 @@ checked program was:
 
 have_func: checking for GetImageAlphaChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -408,7 +408,7 @@ checked program was:
 
 have_func: checking for GetVirtualPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -430,7 +430,7 @@ checked program was:
 
 have_func: checking for LevelImageColors() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 conftest.c: In function ‘t’:
 conftest.c:13: warning: ‘LevelImageColors’ is deprecated (declared at /opt/local/include/ImageMagick/magick/deprecate.h:188)
 checked program was:
@@ -454,7 +454,7 @@ checked program was:
 
 have_func: checking for LevelColorsImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -476,7 +476,7 @@ checked program was:
 
 have_func: checking for LevelizeImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -498,7 +498,7 @@ checked program was:
 
 have_func: checking for LiquidRescaleImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -520,7 +520,7 @@ checked program was:
 
 have_func: checking for OpaquePaintImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -542,7 +542,7 @@ checked program was:
 
 have_func: checking for QueueAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -564,7 +564,7 @@ checked program was:
 
 have_func: checking for RemapImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -586,7 +586,7 @@ checked program was:
 
 have_func: checking for RemoveImageArtifact() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -608,7 +608,7 @@ checked program was:
 
 have_func: checking for SelectiveBlurImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -630,7 +630,7 @@ checked program was:
 
 have_func: checking for SetImageAlphaChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -652,7 +652,7 @@ checked program was:
 
 have_func: checking for SetImageArtifact() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -674,7 +674,7 @@ checked program was:
 
 have_func: checking for SetMagickMemoryMethods() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -696,7 +696,7 @@ checked program was:
 
 have_func: checking for SparseColorImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -718,7 +718,7 @@ checked program was:
 
 have_func: checking for SyncAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -740,7 +740,7 @@ checked program was:
 
 have_func: checking for TransparentPaintImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -762,7 +762,7 @@ checked program was:
 
 have_func: checking for TransparentPaintImageChroma() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -784,7 +784,7 @@ checked program was:
 
 checking for QueryMagickColorname() new signature... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -813,7 +813,7 @@ checked program was:
 
 have_struct_member: checking for Image.type in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -835,7 +835,7 @@ checked program was:
 
 have_struct_member: checking for DrawInfo.kerning in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -857,7 +857,7 @@ checked program was:
 
 have_struct_member: checking for DrawInfo.interline_spacing in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -879,7 +879,7 @@ checked program was:
 
 have_struct_member: checking for DrawInfo.interword_spacing in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -901,7 +901,7 @@ checked program was:
 
 have_type: checking for DitherMethod in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -923,7 +923,7 @@ checked program was:
 
 have_type: checking for MagickFunction in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -945,7 +945,7 @@ checked program was:
 
 have_type: checking for ImageLayerMethod in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -967,7 +967,7 @@ checked program was:
 
 have_type: checking for long double in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -989,7 +989,7 @@ checked program was:
 
 have_enum_value: checking for AlphaChannelType.CopyAlphaChannel... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1010,7 +1010,7 @@ checked program was:
 
 have_enum_value: checking for AlphaChannelType.BackgroundAlphaChannel... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1031,7 +1031,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.BlurCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1052,7 +1052,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.DistortCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1073,7 +1073,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.LinearBurnCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1094,7 +1094,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.LinearDodgeCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1115,7 +1115,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.MathematicsCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1136,7 +1136,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.PegtopLightCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1157,7 +1157,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.PinLightCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1178,7 +1178,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.VividLightCompositeOp... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1199,7 +1199,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.DXT1Compression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1220,7 +1220,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.DXT3Compression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1241,7 +1241,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.DXT5Compression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1262,7 +1262,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.ZipSCompression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1283,7 +1283,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.PizCompression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1304,7 +1304,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.Pxr24Compression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1325,7 +1325,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.B44Compression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1346,7 +1346,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.B44ACompression... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1367,7 +1367,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BarrelDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1388,7 +1388,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BarrelInverseDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1409,7 +1409,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BilinearForwardDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1430,7 +1430,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BilinearReverseDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1451,7 +1451,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.DePolarDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1472,7 +1472,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.PolarDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1493,7 +1493,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.PolynomialDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1514,7 +1514,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.ShepardsDistortion... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1535,7 +1535,7 @@ checked program was:
 
 have_enum_value: checking for DitherMethod.NoDitherMethod... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1556,7 +1556,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.KaiserFilter... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1577,7 +1577,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.WelshFilter... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1598,7 +1598,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.ParzenFilter... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1619,7 +1619,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.LagrangeFilter... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1640,7 +1640,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.BohmanFilter... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1661,7 +1661,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.BartlettFilter... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1682,7 +1682,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.SentinelFilter... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1703,7 +1703,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.PowEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1724,7 +1724,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.LogEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1745,7 +1745,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ThresholdEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1766,7 +1766,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ThresholdBlackEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1787,7 +1787,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ThresholdWhiteEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1808,7 +1808,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.GaussianNoiseEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1829,7 +1829,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ImpulseNoiseEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1850,7 +1850,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.LaplacianNoiseEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1871,7 +1871,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.MultiplicativeNoiseEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1892,7 +1892,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.PoissonNoiseEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1913,7 +1913,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.UniformNoiseEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1934,7 +1934,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.CosineEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1955,7 +1955,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.SineEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1976,7 +1976,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.AddModulusEvaluateOperator... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -1997,7 +1997,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.ArcsinFunction... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2018,7 +2018,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.ArctanFunction... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2039,7 +2039,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.PolynomialFunction... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2060,7 +2060,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.SinusoidFunction... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2081,7 +2081,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.FlattenLayer... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2102,7 +2102,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.MergeLayer... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2123,7 +2123,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.MosaicLayer... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2144,7 +2144,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.TrimBoundsLayer... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2165,7 +2165,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.HorizontalTileVirtualPixelMethod... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2186,7 +2186,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.VerticalTileVirtualPixelMethod... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2207,7 +2207,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.HorizontalTileEdgeVirtualPixelMethod... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2228,7 +2228,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.VerticalTileEdgeVirtualPixelMethod... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2249,7 +2249,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.CheckerTileVirtualPixelMethod... -------------------- yes
 
-"gcc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
+"gcc -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp   -c conftest.c"
 checked program was:
 /* begin */
  1: #include <assert.h>
@@ -2270,7 +2270,7 @@ checked program was:
 
 have_header: checking for ruby/io.h... -------------------- no
 
-"gcc -E -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
+"gcc -E -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp  conftest.c -o conftest.i"
 conftest.c:1:21: error: ruby/io.h: No such file or directory
 checked program was:
 /* begin */
@@ -2281,7 +2281,7 @@ checked program was:
 
 have_func: checking for rb_frame_this_func() in ruby.h,rubyio.h... -------------------- yes
 
-"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin10.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby -lMagickCore  -lpthread -ldl  "
+"gcc -o conftest -I. -I/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib/ruby/1.8/i686-darwin10.2.0 -I.  -I/opt/local/include/ImageMagick  -I/opt/local/include/ImageMagick -fopenmp conftest.c  -L. -L/Users/bernardo/.rvm/rubies/ruby-1.8.7-p249/lib  -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib -L/opt/local/lib    -L/opt/local/lib -lMagickCore -ltiff -lfreetype -ljpeg -L/opt/local/lib -lfontconfig -lexpat -lfreetype -lz -liconv -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lm -lgomp -lpthread  -lMagickCore  -lruby-static -lMagickCore  -ldl -lobjc  "
 checked program was:
 /* begin */
 1: #include <ruby.h>
@@ -2297,9 +2297,9 @@ checked program was:
 
 
 ======================================================================
-Wed 10Mar10 01:02:14
+Wed 10Mar10 01:12:25
 This installation of RMagick 2.12.2 is configured for
-Ruby 1.8.7 (universal-darwin10.0) and ImageMagick 6.5.7 Q16 
+Ruby 1.8.7 (i686-darwin10.2.0) and ImageMagick 6.5.7 Q16 
 ======================================================================
 
 
