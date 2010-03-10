@@ -20,6 +20,13 @@ plugins/awesome_nested_set:
   type: git
   revision: b9aba888f5f28e7ce47af4a36c2ae1df17640b38
   remote: braid/plugins/awesome-nested-set
+plugins/nested_layouts: 
+  squashed: true
+  url: git://github.com/radar/nested-layouts.git
+  branch: master
+  type: git
+  revision: 5e5e70be07d875819e6a319d7e254d145a652fe9
+  remote: braid/plugins/nested-layouts
 plugins/markdown_fu: 
   squashed: true
   url: git://github.com/fesplugas/markdown_fu.git
