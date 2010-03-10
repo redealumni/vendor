@@ -20,6 +20,13 @@ plugins/awesome_nested_set:
   type: git
   revision: b9aba888f5f28e7ce47af4a36c2ae1df17640b38
   remote: braid/plugins/awesome-nested-set
+plugins/limerick_rake: 
+  squashed: true
+  url: git://github.com/thoughtbot/limerick_rake.git
+  branch: master
+  type: git
+  revision: 30d51ea42de50ccb445adcbc798e96f9c4db6544
+  remote: braid/plugins/limerick-rake
 plugins/action_mailer_optional_tls: 
   squashed: true
   url: git://github.com/collectiveidea/action_mailer_optional_tls.git
