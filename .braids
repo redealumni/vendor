@@ -20,6 +20,13 @@ plugins/awesome_nested_set:
   type: git
   revision: b9aba888f5f28e7ce47af4a36c2ae1df17640b38
   remote: braid/plugins/awesome-nested-set
+plugins/markdown_fu: 
+  squashed: true
+  url: git://github.com/bernardo/markdown_fu.git
+  branch: master
+  type: git
+  revision: 1dd676c3153b73eba8255bf673081f3f744c9834
+  remote: braid/plugins/markdown-fu
 plugins/rspec-rails: 
   squashed: true
   branch: master
