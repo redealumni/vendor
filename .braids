@@ -62,6 +62,13 @@ plugins/nested_layouts:
   type: git
   revision: 5e5e70be07d875819e6a319d7e254d145a652fe9
   remote: braid/plugins/nested-layouts
+plugins/seed-fu: 
+  squashed: true
+  url: git://github.com/mbleigh/seed-fu.git
+  branch: master
+  type: git
+  revision: 7a88afe6bbf81911968b11966004719c3659c7e3
+  remote: braid/plugins/seed-fu
 plugins/attachment_fu: 
   squashed: true
   branch: master
