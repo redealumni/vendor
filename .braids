@@ -1,4 +1,11 @@
 --- 
+plugins/auto_complete_fu: 
+  squashed: true
+  url: http://github.com/bernardo/auto_complete_fu.git
+  branch: master
+  type: git
+  revision: c47800d1f185831bd050c58ad7bc264e90aea16e
+  remote: braid/plugins/auto-complete-fu
 plugins/mocha: 
   squashed: true
   branch: master
