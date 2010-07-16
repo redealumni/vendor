@@ -1,106 +1,113 @@
 --- 
-plugins/auto_complete_fu: 
-  squashed: true
-  url: http://github.com/bernardo/auto_complete_fu.git
-  branch: master
-  type: git
-  revision: c47800d1f185831bd050c58ad7bc264e90aea16e
-  remote: braid/plugins/auto-complete-fu
-plugins/mocha: 
-  squashed: true
-  branch: master
-  url: git://github.com/floehopper/mocha.git
-  type: git
-  revision: 55f431a7dc0797b54ee5dbd3256ee59cbb175499
-  remote: braid/plugins/mocha
-plugins/mimetype-fu: 
-  squashed: true
-  branch: master
-  url: git://github.com/mattetti/mimetype-fu.git
-  type: git
-  revision: 6cbcadd3c3b6d7a3b239f3eee9db3bd0a76ea3b6
-  remote: braid/plugins/mimetype-fu
-plugins/active_form: 
-  squashed: true
-  url: git://github.com/cs/active_form.git
-  branch: master
-  type: git
-  revision: baa96e47b457c85c7bacd45858e4d47a73dc3fff
-  remote: braid/plugins/active-form
-plugins/awesome_nested_set: 
-  squashed: true
-  branch: master
-  url: git://github.com/collectiveidea/awesome_nested_set.git
-  type: git
-  revision: b9aba888f5f28e7ce47af4a36c2ae1df17640b38
-  remote: braid/plugins/awesome-nested-set
-plugins/markdown_fu: 
-  squashed: true
-  url: git://github.com/bernardo/markdown_fu.git
-  branch: master
-  type: git
-  revision: 1dd676c3153b73eba8255bf673081f3f744c9834
-  remote: braid/plugins/markdown-fu
 plugins/action_mailer_optional_tls: 
-  squashed: true
   branch: master
-  url: git://github.com/collectiveidea/action_mailer_optional_tls.git
-  type: git
-  revision: c05ff0125c459328d7507b3b568f8d4ae66584e1
   remote: braid/plugins/action-mailer-optional-tls
-plugins/limerick_rake: 
+  revision: c05ff0125c459328d7507b3b568f8d4ae66584e1
   squashed: true
-  branch: master
-  url: git://github.com/thoughtbot/limerick_rake.git
   type: git
-  revision: 30d51ea42de50ccb445adcbc798e96f9c4db6544
-  remote: braid/plugins/limerick-rake
-plugins/nested_layouts: 
+  url: git://github.com/collectiveidea/action_mailer_optional_tls.git
+plugins/active_form: 
+  branch: master
+  remote: braid/plugins/active-form
+  revision: baa96e47b457c85c7bacd45858e4d47a73dc3fff
   squashed: true
-  branch: master
-  url: git://github.com/radar/nested-layouts.git
   type: git
-  revision: 5e5e70be07d875819e6a319d7e254d145a652fe9
-  remote: braid/plugins/nested-layouts
-plugins/rspec-rails: 
-  squashed: true
-  url: git://github.com/dchelimsky/rspec-rails.git
-  branch: master
-  type: git
-  revision: a60936420d16b8b33f596e97459bb2928aab7d32
-  remote: braid/plugins/rspec-rails
-plugins/seed-fu: 
-  squashed: true
-  url: git://github.com/mbleigh/seed-fu.git
-  branch: master
-  type: git
-  revision: 7a88afe6bbf81911968b11966004719c3659c7e3
-  remote: braid/plugins/seed-fu
-plugins/attachment_fu: 
-  squashed: true
-  branch: master
-  url: git://github.com/technoweenie/attachment_fu.git
-  type: git
-  revision: fa08cb03914b02b66853b4615cd3eca768291ca7
-  remote: braid/plugins/attachment-fu
-plugins/rspec: 
-  squashed: true
-  url: git://github.com/dchelimsky/rspec.git
-  branch: master
-  type: git
-  revision: cc75fdf748070d5ef9f34ea1e0824158533097f2
-  remote: braid/plugins/rspec
+  url: git://github.com/cs/active_form.git
 plugins/acts_as_audited: 
-  squashed: true
   branch: master
-  url: git://github.com/collectiveidea/acts_as_audited.git
-  type: git
-  revision: b3272a8d62cb628fdb6d59c59822fb5170222b0c
   remote: braid/plugins/acts-as-audited
-plugins/geokit-rails: 
+  revision: b3272a8d62cb628fdb6d59c59822fb5170222b0c
   squashed: true
-  branch: master
-  url: git://github.com/andre/geokit-rails.git
   type: git
-  revision: 324231088b02d7c6d590333d2bb1645efad0274f
+  url: git://github.com/collectiveidea/acts_as_audited.git
+plugins/attachment_fu: 
+  branch: master
+  remote: braid/plugins/attachment-fu
+  revision: fa08cb03914b02b66853b4615cd3eca768291ca7
+  squashed: true
+  type: git
+  url: git://github.com/technoweenie/attachment_fu.git
+plugins/auto_complete_fu: 
+  branch: master
+  remote: braid/plugins/auto-complete-fu
+  revision: c47800d1f185831bd050c58ad7bc264e90aea16e
+  squashed: true
+  type: git
+  url: http://github.com/bernardo/auto_complete_fu.git
+plugins/awesome_nested_set: 
+  branch: master
+  remote: braid/plugins/awesome-nested-set
+  revision: b9aba888f5f28e7ce47af4a36c2ae1df17640b38
+  squashed: true
+  type: git
+  url: git://github.com/collectiveidea/awesome_nested_set.git
+plugins/geokit-rails: 
+  branch: master
   remote: braid/plugins/geokit-rails
+  revision: 324231088b02d7c6d590333d2bb1645efad0274f
+  squashed: true
+  type: git
+  url: git://github.com/andre/geokit-rails.git
+plugins/limerick_rake: 
+  branch: master
+  remote: braid/plugins/limerick-rake
+  revision: 30d51ea42de50ccb445adcbc798e96f9c4db6544
+  squashed: true
+  type: git
+  url: git://github.com/thoughtbot/limerick_rake.git
+plugins/markdown_fu: 
+  branch: master
+  remote: braid/plugins/markdown-fu
+  revision: 1dd676c3153b73eba8255bf673081f3f744c9834
+  squashed: true
+  type: git
+  url: git://github.com/bernardo/markdown_fu.git
+plugins/mimetype-fu: 
+  branch: master
+  remote: braid/plugins/mimetype-fu
+  revision: 6cbcadd3c3b6d7a3b239f3eee9db3bd0a76ea3b6
+  squashed: true
+  type: git
+  url: git://github.com/mattetti/mimetype-fu.git
+plugins/mocha: 
+  branch: master
+  remote: braid/plugins/mocha
+  revision: 55f431a7dc0797b54ee5dbd3256ee59cbb175499
+  squashed: true
+  type: git
+  url: git://github.com/floehopper/mocha.git
+plugins/more: 
+  branch: master
+  remote: braid/plugins/more
+  revision: aa0a61ff17407be790d593aa1a8e1b19a6410582
+  squashed: true
+  type: git
+  url: git://github.com/cloudhead/more.git
+plugins/nested_layouts: 
+  branch: master
+  remote: braid/plugins/nested-layouts
+  revision: 5e5e70be07d875819e6a319d7e254d145a652fe9
+  squashed: true
+  type: git
+  url: git://github.com/radar/nested-layouts.git
+plugins/rspec: 
+  branch: master
+  remote: braid/plugins/rspec
+  revision: cc75fdf748070d5ef9f34ea1e0824158533097f2
+  squashed: true
+  type: git
+  url: git://github.com/dchelimsky/rspec.git
+plugins/rspec-rails: 
+  branch: master
+  remote: braid/plugins/rspec-rails
+  revision: a60936420d16b8b33f596e97459bb2928aab7d32
+  squashed: true
+  type: git
+  url: git://github.com/dchelimsky/rspec-rails.git
+plugins/seed-fu: 
+  branch: master
+  remote: braid/plugins/seed-fu
+  revision: 7a88afe6bbf81911968b11966004719c3659c7e3
+  squashed: true
+  type: git
+  url: git://github.com/mbleigh/seed-fu.git
